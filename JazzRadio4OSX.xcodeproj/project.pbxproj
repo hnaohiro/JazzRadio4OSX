@@ -1,0 +1,496 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		97AB3A6918548336003C6C55 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 97AB3A6818548336003C6C55 /* Cocoa.framework */; };
+		97AB3A7318548336003C6C55 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 97AB3A7118548336003C6C55 /* InfoPlist.strings */; };
+		97AB3A7518548336003C6C55 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 97AB3A7418548336003C6C55 /* main.m */; };
+		97AB3A7918548336003C6C55 /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 97AB3A7718548336003C6C55 /* Credits.rtf */; };
+		97AB3A7C18548336003C6C55 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 97AB3A7B18548336003C6C55 /* AppDelegate.m */; };
+		97AB3A7F18548336003C6C55 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 97AB3A7D18548336003C6C55 /* MainMenu.xib */; };
+		97AB3A8218548336003C6C55 /* JazzRadio4OSX.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 97AB3A8018548336003C6C55 /* JazzRadio4OSX.xcdatamodeld */; };
+		97AB3A8418548336003C6C55 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 97AB3A8318548336003C6C55 /* Images.xcassets */; };
+		97AB3A8B18548336003C6C55 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 97AB3A8A18548336003C6C55 /* XCTest.framework */; };
+		97AB3A8C18548336003C6C55 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 97AB3A6818548336003C6C55 /* Cocoa.framework */; };
+		97AB3A9418548336003C6C55 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 97AB3A9218548336003C6C55 /* InfoPlist.strings */; };
+		97AB3A9618548336003C6C55 /* JazzRadio4OSXTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 97AB3A9518548336003C6C55 /* JazzRadio4OSXTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		97AB3A8D18548336003C6C55 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 97AB3A5D18548336003C6C55 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 97AB3A6418548336003C6C55;
+			remoteInfo = JazzRadio4OSX;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		97AB3A6518548336003C6C55 /* JazzRadio4OSX.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JazzRadio4OSX.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		97AB3A6818548336003C6C55 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		97AB3A6B18548336003C6C55 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		97AB3A6C18548336003C6C55 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		97AB3A6D18548336003C6C55 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		97AB3A7018548336003C6C55 /* JazzRadio4OSX-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "JazzRadio4OSX-Info.plist"; sourceTree = "<group>"; };
+		97AB3A7218548336003C6C55 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		97AB3A7418548336003C6C55 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		97AB3A7618548336003C6C55 /* JazzRadio4OSX-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "JazzRadio4OSX-Prefix.pch"; sourceTree = "<group>"; };
+		97AB3A7818548336003C6C55 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
+		97AB3A7A18548336003C6C55 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		97AB3A7B18548336003C6C55 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		97AB3A7E18548336003C6C55 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		97AB3A8118548336003C6C55 /* JazzRadio4OSX.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = JazzRadio4OSX.xcdatamodel; sourceTree = "<group>"; };
+		97AB3A8318548336003C6C55 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		97AB3A8918548336003C6C55 /* JazzRadio4OSXTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JazzRadio4OSXTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		97AB3A8A18548336003C6C55 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		97AB3A9118548336003C6C55 /* JazzRadio4OSXTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "JazzRadio4OSXTests-Info.plist"; sourceTree = "<group>"; };
+		97AB3A9318548336003C6C55 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		97AB3A9518548336003C6C55 /* JazzRadio4OSXTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JazzRadio4OSXTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		97AB3A6218548336003C6C55 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				97AB3A6918548336003C6C55 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		97AB3A8618548336003C6C55 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				97AB3A8C18548336003C6C55 /* Cocoa.framework in Frameworks */,
+				97AB3A8B18548336003C6C55 /* XCTest.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		97AB3A5C18548336003C6C55 = {
+			isa = PBXGroup;
+			children = (
+				97AB3A6E18548336003C6C55 /* JazzRadio4OSX */,
+				97AB3A8F18548336003C6C55 /* JazzRadio4OSXTests */,
+				97AB3A6718548336003C6C55 /* Frameworks */,
+				97AB3A6618548336003C6C55 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		97AB3A6618548336003C6C55 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				97AB3A6518548336003C6C55 /* JazzRadio4OSX.app */,
+				97AB3A8918548336003C6C55 /* JazzRadio4OSXTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		97AB3A6718548336003C6C55 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				97AB3A6818548336003C6C55 /* Cocoa.framework */,
+				97AB3A8A18548336003C6C55 /* XCTest.framework */,
+				97AB3A6A18548336003C6C55 /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		97AB3A6A18548336003C6C55 /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				97AB3A6B18548336003C6C55 /* AppKit.framework */,
+				97AB3A6C18548336003C6C55 /* CoreData.framework */,
+				97AB3A6D18548336003C6C55 /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		97AB3A6E18548336003C6C55 /* JazzRadio4OSX */ = {
+			isa = PBXGroup;
+			children = (
+				97AB3A7A18548336003C6C55 /* AppDelegate.h */,
+				97AB3A7B18548336003C6C55 /* AppDelegate.m */,
+				97AB3A7D18548336003C6C55 /* MainMenu.xib */,
+				97AB3A8318548336003C6C55 /* Images.xcassets */,
+				97AB3A8018548336003C6C55 /* JazzRadio4OSX.xcdatamodeld */,
+				97AB3A6F18548336003C6C55 /* Supporting Files */,
+			);
+			path = JazzRadio4OSX;
+			sourceTree = "<group>";
+		};
+		97AB3A6F18548336003C6C55 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				97AB3A7018548336003C6C55 /* JazzRadio4OSX-Info.plist */,
+				97AB3A7118548336003C6C55 /* InfoPlist.strings */,
+				97AB3A7418548336003C6C55 /* main.m */,
+				97AB3A7618548336003C6C55 /* JazzRadio4OSX-Prefix.pch */,
+				97AB3A7718548336003C6C55 /* Credits.rtf */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		97AB3A8F18548336003C6C55 /* JazzRadio4OSXTests */ = {
+			isa = PBXGroup;
+			children = (
+				97AB3A9518548336003C6C55 /* JazzRadio4OSXTests.m */,
+				97AB3A9018548336003C6C55 /* Supporting Files */,
+			);
+			path = JazzRadio4OSXTests;
+			sourceTree = "<group>";
+		};
+		97AB3A9018548336003C6C55 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				97AB3A9118548336003C6C55 /* JazzRadio4OSXTests-Info.plist */,
+				97AB3A9218548336003C6C55 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		97AB3A6418548336003C6C55 /* JazzRadio4OSX */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 97AB3A9918548336003C6C55 /* Build configuration list for PBXNativeTarget "JazzRadio4OSX" */;
+			buildPhases = (
+				97AB3A6118548336003C6C55 /* Sources */,
+				97AB3A6218548336003C6C55 /* Frameworks */,
+				97AB3A6318548336003C6C55 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = JazzRadio4OSX;
+			productName = JazzRadio4OSX;
+			productReference = 97AB3A6518548336003C6C55 /* JazzRadio4OSX.app */;
+			productType = "com.apple.product-type.application";
+		};
+		97AB3A8818548336003C6C55 /* JazzRadio4OSXTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 97AB3A9C18548336003C6C55 /* Build configuration list for PBXNativeTarget "JazzRadio4OSXTests" */;
+			buildPhases = (
+				97AB3A8518548336003C6C55 /* Sources */,
+				97AB3A8618548336003C6C55 /* Frameworks */,
+				97AB3A8718548336003C6C55 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				97AB3A8E18548336003C6C55 /* PBXTargetDependency */,
+			);
+			name = JazzRadio4OSXTests;
+			productName = JazzRadio4OSXTests;
+			productReference = 97AB3A8918548336003C6C55 /* JazzRadio4OSXTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		97AB3A5D18548336003C6C55 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0500;
+				ORGANIZATIONNAME = hnaohiro;
+				TargetAttributes = {
+					97AB3A8818548336003C6C55 = {
+						TestTargetID = 97AB3A6418548336003C6C55;
+					};
+				};
+			};
+			buildConfigurationList = 97AB3A6018548336003C6C55 /* Build configuration list for PBXProject "JazzRadio4OSX" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 97AB3A5C18548336003C6C55;
+			productRefGroup = 97AB3A6618548336003C6C55 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				97AB3A6418548336003C6C55 /* JazzRadio4OSX */,
+				97AB3A8818548336003C6C55 /* JazzRadio4OSXTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		97AB3A6318548336003C6C55 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				97AB3A7318548336003C6C55 /* InfoPlist.strings in Resources */,
+				97AB3A8418548336003C6C55 /* Images.xcassets in Resources */,
+				97AB3A7918548336003C6C55 /* Credits.rtf in Resources */,
+				97AB3A7F18548336003C6C55 /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		97AB3A8718548336003C6C55 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				97AB3A9418548336003C6C55 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		97AB3A6118548336003C6C55 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				97AB3A7C18548336003C6C55 /* AppDelegate.m in Sources */,
+				97AB3A8218548336003C6C55 /* JazzRadio4OSX.xcdatamodeld in Sources */,
+				97AB3A7518548336003C6C55 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		97AB3A8518548336003C6C55 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				97AB3A9618548336003C6C55 /* JazzRadio4OSXTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		97AB3A8E18548336003C6C55 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 97AB3A6418548336003C6C55 /* JazzRadio4OSX */;
+			targetProxy = 97AB3A8D18548336003C6C55 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		97AB3A7118548336003C6C55 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				97AB3A7218548336003C6C55 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		97AB3A7718548336003C6C55 /* Credits.rtf */ = {
+			isa = PBXVariantGroup;
+			children = (
+				97AB3A7818548336003C6C55 /* en */,
+			);
+			name = Credits.rtf;
+			sourceTree = "<group>";
+		};
+		97AB3A7D18548336003C6C55 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				97AB3A7E18548336003C6C55 /* Base */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+		97AB3A9218548336003C6C55 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				97AB3A9318548336003C6C55 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		97AB3A9718548336003C6C55 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		97AB3A9818548336003C6C55 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		97AB3A9A18548336003C6C55 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "JazzRadio4OSX/JazzRadio4OSX-Prefix.pch";
+				INFOPLIST_FILE = "JazzRadio4OSX/JazzRadio4OSX-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		97AB3A9B18548336003C6C55 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "JazzRadio4OSX/JazzRadio4OSX-Prefix.pch";
+				INFOPLIST_FILE = "JazzRadio4OSX/JazzRadio4OSX-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		97AB3A9D18548336003C6C55 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/JazzRadio4OSX.app/Contents/MacOS/JazzRadio4OSX";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "JazzRadio4OSX/JazzRadio4OSX-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "JazzRadio4OSXTests/JazzRadio4OSXTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		97AB3A9E18548336003C6C55 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/JazzRadio4OSX.app/Contents/MacOS/JazzRadio4OSX";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "JazzRadio4OSX/JazzRadio4OSX-Prefix.pch";
+				INFOPLIST_FILE = "JazzRadio4OSXTests/JazzRadio4OSXTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		97AB3A6018548336003C6C55 /* Build configuration list for PBXProject "JazzRadio4OSX" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				97AB3A9718548336003C6C55 /* Debug */,
+				97AB3A9818548336003C6C55 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		97AB3A9918548336003C6C55 /* Build configuration list for PBXNativeTarget "JazzRadio4OSX" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				97AB3A9A18548336003C6C55 /* Debug */,
+				97AB3A9B18548336003C6C55 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		97AB3A9C18548336003C6C55 /* Build configuration list for PBXNativeTarget "JazzRadio4OSXTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				97AB3A9D18548336003C6C55 /* Debug */,
+				97AB3A9E18548336003C6C55 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		97AB3A8018548336003C6C55 /* JazzRadio4OSX.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				97AB3A8118548336003C6C55 /* JazzRadio4OSX.xcdatamodel */,
+			);
+			currentVersion = 97AB3A8118548336003C6C55 /* JazzRadio4OSX.xcdatamodel */;
+			path = JazzRadio4OSX.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 97AB3A5D18548336003C6C55 /* Project object */;
+}
