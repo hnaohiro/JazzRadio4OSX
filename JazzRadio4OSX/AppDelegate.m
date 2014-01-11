@@ -17,6 +17,8 @@
 - (void)applicationDidFinishLaunching:(NSNotification *)aNotification
 {
     // Insert code here to initialize your application
+    NSURLRequest *request = [NSURLRequest requestWithURL:[NSURL URLWithString:@"http://www.jazzradio.com/currentjazz"]];
+    [self.webview.mainFrame loadRequest:request];
 }
 
 // Returns the directory the application uses to store the Core Data store file. This code uses a directory named "hnaohiro.com.JazzRadio4OSX" in the user's Application Support directory.

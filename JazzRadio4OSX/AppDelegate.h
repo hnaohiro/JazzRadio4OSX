@@ -7,6 +7,7 @@
 //
 
 #import <Cocoa/Cocoa.h>
+#import <WebKit/WebKit.h>
 
 @interface AppDelegate : NSObject <NSApplicationDelegate>
 
@@ -17,5 +18,7 @@
 @property (readonly, strong, nonatomic) NSManagedObjectContext *managedObjectContext;
 
 - (IBAction)saveAction:(id)sender;
+
+@property (weak) IBOutlet WebView *webview;
 
 @end

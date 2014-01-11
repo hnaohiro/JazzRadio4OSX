@@ -19,6 +19,7 @@
 		97AB3A8C18548336003C6C55 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 97AB3A6818548336003C6C55 /* Cocoa.framework */; };
 		97AB3A9418548336003C6C55 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 97AB3A9218548336003C6C55 /* InfoPlist.strings */; };
 		97AB3A9618548336003C6C55 /* JazzRadio4OSXTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 97AB3A9518548336003C6C55 /* JazzRadio4OSXTests.m */; };
+		97AB3AA0185484F9003C6C55 /* WebKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 97AB3A9F185484F9003C6C55 /* WebKit.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -52,6 +53,7 @@
 		97AB3A9118548336003C6C55 /* JazzRadio4OSXTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "JazzRadio4OSXTests-Info.plist"; sourceTree = "<group>"; };
 		97AB3A9318548336003C6C55 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		97AB3A9518548336003C6C55 /* JazzRadio4OSXTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JazzRadio4OSXTests.m; sourceTree = "<group>"; };
+		97AB3A9F185484F9003C6C55 /* WebKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WebKit.framework; path = System/Library/Frameworks/WebKit.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +61,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				97AB3AA0185484F9003C6C55 /* WebKit.framework in Frameworks */,
 				97AB3A6918548336003C6C55 /* Cocoa.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -97,6 +100,7 @@
 		97AB3A6718548336003C6C55 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				97AB3A9F185484F9003C6C55 /* WebKit.framework */,
 				97AB3A6818548336003C6C55 /* Cocoa.framework */,
 				97AB3A8A18548336003C6C55 /* XCTest.framework */,
 				97AB3A6A18548336003C6C55 /* Other Frameworks */,
